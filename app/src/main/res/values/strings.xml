@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HCE F Demo</string>
+    <string name="servicedesc">Service description</string>
+</resources>

@@ -1,0 +1,10 @@
+<host-nfcf-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/servicedesc">
+    <!-- System code is overridden when setNfcid2ForService is called -->
+    <system-code-filter android:name="4000"/>
+    <!-- NFCID2 is overridden when registerSystemCodeForService is called -->
+    <nfcid2-filter android:name="02FE000000000000"/>
+    <!-- PMM cannot be changed dynamically -->
+    <t3tPmm-filter android:name="FFFFFFFFFFFFFFFF"/>
+</host-nfcf-service>
+ 
